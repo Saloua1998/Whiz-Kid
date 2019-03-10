@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Whiz Kid!</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <style> 
+        #tree {
+            position: fixed;
+            top: 20%; right: 40%;}
+        #formapples{
+            position: fixed;
+            top: 40%; left: 45%}
+        #submit{
+            position: fixed;
+            right: 49.5%;}
+        #antwoord{
+            color: black;
+            font-size: 20px;
+            width: 50px}
+        #apples{color: white;}
+        </style>
+        
+    </head>
+
+    <body style="background: url(https://jooinn.com/images/grass-122.jpg)";>  
+        <h1>Hoeveel Appels zitten er in de boom?</h1>
+        
+        <img id="tree" src="tree.png" height="400px" width="380px">
+        
+        <form id="formapples">
+            <input id="antwoord" type="number">
+            <bold id=apples>apples</bold> <br/>
+            <input id="submit" type="submit" value="Enter">
+        </form>
+
+    </body>
+
+</html>
+
+<!-- 
+    Bugs:
+    -Tree changes position when window resized
+    -Form changes position when window resized
+ -->

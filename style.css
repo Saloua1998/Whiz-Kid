@@ -1,3 +1,5 @@
+/* <link rel="icon" href="icon.png"> */
+
 .bttn{
     position: absolute; 
     border:5px; border-radius: 15px;
@@ -37,16 +39,18 @@
     left: 50%;  right: 50%;
     text-align: center;
     cursor: pointer;
-    font-size: 25px;
-    
-}
+    font-size: 25px;}
 
 h1{
     position: absolute; 
     width:100%;
     text-align: center;
-    font-size: 50px;
-}
+    font-size: 50px;}
+
+
+/* Tree game */
+
+
 
 /* You can't see the link */
 a{text-decoration: none; color: inherit;}
